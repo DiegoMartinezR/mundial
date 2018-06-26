@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 443;
+var port = process.env.PORT || 3000;
 
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
